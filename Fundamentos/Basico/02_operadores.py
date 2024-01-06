@@ -123,3 +123,26 @@ print(x) # x dividido por 2. Si contenía 8 antes, ahora tiene un valor de 4.
 # *=
 x *= 4 # x multiplicado por 4. Si contenía 4 antes, ahora tiene un valor de 16.
 print(x)
+
+
+"""
+Orden de las operaciones
+Python respeta el orden de las operaciones en matemáticas. El orden de las operaciones determina que las expresiones se deben evaluar en este orden:
+
+- Paréntesis
+- Exponentes
+- Multiplicación y división
+- Suma y resta
+Observe que se evalúan los paréntesis antes que cualquier otra operación. Usar paréntesis le permite asegurarse de que el código se ejecute de una manera predecible y el código resulta más fácil de leer y mantener. Como resultado, el procedimiento recomendado es usar paréntesis aunque el orden de las operaciones se evalúe de la misma manera sin ellos.
+"""
+
+"""
+Valores absolutos
+En matemáticas, un valor absoluto es el número no negativo sin su signo. El uso de un valor absoluto puede ser útil en situaciones varias, incluido el ejemplo de búsqueda para determinar la distancia entre dos planetas. 
+Use abs para convertir el valor negativo en su valor absoluto. Si hace la misma operación mediante abs (e imprime las respuestas), verá que muestra 23 para ambas ecuaciones.
+"""
+print(39 - 16)
+print(16 - 39)
+
+print(abs(39 - 16))
+print(abs(16 - 39))
