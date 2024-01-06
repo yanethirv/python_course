@@ -16,11 +16,14 @@ my_int_to_str_variable = str(my_int_variable) # Transformamos a String
 print(my_int_to_str_variable)
 print(type(my_int_to_str_variable)) # Imprimimos el tipo de dato
 
+my_float_variable = 4.367
+print(my_float_variable)
+
 my_bool_variable = True # Variable tipo Boolean
 print(my_bool_variable)
 
 # Concatenacion de variables en un print. Le pasamos varios argumentos
-print(my_string_variable, my_int_variable, my_bool_variable)
+print(my_string_variable, my_int_variable, my_float_variable, my_bool_variable)
 print(my_string_variable, my_int_to_str_variable)
 print("Valor de mi entero:", my_int_variable)
 
