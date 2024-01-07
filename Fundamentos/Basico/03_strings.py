@@ -18,6 +18,11 @@ print(my_new_line_string)
 my_tabbed_string = "\tEste es un string con tabulacion"
 print(my_tabbed_string)
 
+multiline = """Facts about the Moon:
+    There is no atmosphere. 
+    There is no sound."""
+print(multiline)
+
 # Acceder a los caracteres de un string
 first_character = my_string[0]  # Obtener el primer carácter
 print(first_character)
@@ -63,3 +68,25 @@ print(lenguaje.count("t"))
 print(lenguaje.isnumeric())
 print(lenguaje.lower().isupper())
 print(lenguaje.startswith('Py'))
+
+heading = "temperatures and facts about the moon"
+heading_upper = heading.title()
+print(heading_upper)
+
+# Division de una cadena
+temperatures = "Daylight: 260 F Nighttime: -280 F"
+temperatures_list = temperatures.split()
+print(temperatures_list)
+
+temperatures = "Daylight: 260 F\n Nighttime: -280 F"
+temperatures_list = temperatures.split('\n')
+print(temperatures_list)
+
+# Busqueda en una cadena
+# El método .find() devuelve -1 cuando no se encuentra la palabra, o bien devuelve el índice (el número que representa la posición en la cadena)
+temperatures = """Saturn has a daytime temperature of -170 degrees Celsius, while Mars has -28 Celsius."""
+print(temperatures.find("Moon"))
+
+temperatures = """Saturn has a daytime temperature of -170 degrees Celsius, while Mars has -28 Celsius."""
+print(temperatures.count("Mars"))
+print(temperatures.count("Moon"))
